@@ -1,13 +1,10 @@
-// generateReadme function populating README.md
-// Object literals. 
 
-function readmePopulation (answers) {
-    return `
-    # ${answers.varTitle}
+    # Read ME
 
 ## Description 
 
-${answers.varDescription}
+Hello, welcome to my app. I believe in creating beautiful, powerful things
+with the code I make. 
 
 ## Table of Contents (Optional)
 
@@ -21,7 +18,7 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-${answers.varInstallSteps}
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 
 ## Usage 
@@ -65,7 +62,3 @@ Go the extra mile and write tests for your application. Then provide examples on
 ---
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
-`
-}
-
-module.exports=readmePopulation

@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const axios = require('axios')
 
+const readmePopulation = require('./generateREADME')
 
 
 inquirer
@@ -9,13 +10,27 @@ inquirer
         /* Pass your questions in here */
         {
             type: "input",
-            message: "What is your name?",
-            name: "varName"
+            message: "What is your title?",
+            name: "varTitle"
+        },
+        {
+            type: "editor",
+            message: "What is your description?",
+            name: "varDescription"
+        },
+        {
+            type: "editor",
+            message: "Step-by-Step Installation Guide. Provide steps to get the development running.",
+            name: "varInstallSteps"
         }
     ])
     .then(answers => {
         console.log(answers)
-        console.log(answers.varName)
+      
+      const readmeContent = readmePopulation(answers)
+      fs.writeFile("./README.md", readmeContent, function(error){
+          console.log("success!")
+      })
         // Use user feedback for... whatever!!
     })
     .catch(error => {
