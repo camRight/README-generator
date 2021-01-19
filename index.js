@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const axios = require('axios')
+const axios = require('axios');
+const jest = require('jest');
 
 const readmePopulation = require('./generate-README')
 
@@ -23,10 +24,16 @@ inquirer
             message: "Step-by-Step Installation Guide. Provide steps to get the development running.",
             name: "varInstallSteps"
         },
+        // {
+        //     // I want a hierarchical question tree that pulls up editor 
+        //     // picture? yes/no if yes then editor if no then just write in console.
+        //     type: "confirm",
+        // },
         {
-            // I want a hierarchical question tree that pulls up editor 
-            // 
-            type: "confirm",
+            type: "list",
+            message: "What license would you like?",
+            choices: ['Apache License', 'MIT License', 'Mozilla Public License 2.0', ' GPL License'],
+            name: "varLicense"
         }
     ])
     .then(answers => {

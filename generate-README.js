@@ -39,8 +39,7 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-
+${varLicense}
 
 ---
 
@@ -63,8 +62,8 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 
 ---
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-
+// but put as variable checked for truthiness.
+Contact Me;
 `
 }
 
