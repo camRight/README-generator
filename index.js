@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const axios = require('axios');
 const jest = require('jest');
 
 const readmePopulation = require('./generate-README')
@@ -29,6 +28,8 @@ inquirer
         //     // picture? yes/no if yes then editor if no then just write in console.
         //     type: "confirm",
         // },
+
+        //  perhaps create a server-side API for github to find the relevant badges
         {
             type: "list",
             message: "What license would you like?",
@@ -38,18 +39,18 @@ inquirer
     ])
     .then(answers => {
         console.log(answers)
-      
-      const readmeContent = readmePopulation(answers)
-      fs.writeFile("./README.md", readmeContent, function(error){
-          console.log("success!")
-      })
+
+        const readmeContent = readmePopulation(answers)
+        fs.writeFile("./README.md", readmeContent, function (error) {
+            console.log("success!")
+        })
         // Use user feedback for... whatever!!
     })
     .catch(error => {
         if (error.isTtyError) {
-            // Prompt couldn't be rendered in the current environment
+            console.log("Prompt couldn't be rendered in the current environment")
         } else {
-            // Something else when wrong
+            console.log("Something else wwent wrong, it's working in your current environment...")
         }
     });
 
