@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const axios = require('axios')
 
-const readmePopulation = require('./generateREADME')
+const readmePopulation = require('./generate-README')
 
 
 inquirer
@@ -15,13 +15,18 @@ inquirer
         },
         {
             type: "editor",
-            message: "What is your description?",
+            message: "What is your description? [Close editor when *Done*]",
             name: "varDescription"
         },
         {
             type: "editor",
             message: "Step-by-Step Installation Guide. Provide steps to get the development running.",
             name: "varInstallSteps"
+        },
+        {
+            // I want a hierarchical question tree that pulls up editor 
+            // 
+            type: "confirm",
         }
     ])
     .then(answers => {
