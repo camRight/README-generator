@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const jest = require('jest');
 const axios = require("axios");
 const readmePopulation = require('./utils/generate-README')
 
