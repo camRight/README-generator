@@ -57,8 +57,6 @@ inquirer
                 })
             })
 
-
-        // Use user feedback for... whatever!!
     })
     .catch(error => {
         if (error.isTtyError) {
@@ -73,16 +71,3 @@ inquirer
 function truthyPic() {
     inquirer.prompt
 }
-// function difference(x,y){
-//     return y-x
-// }    
-
-// function public(difference) {
-
-//     function private(x, y) {
-//        console.log(difference(x,y))
-//     }
-
-//     private(8,10)
-// }
-// public(difference)
