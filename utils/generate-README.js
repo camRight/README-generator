@@ -47,9 +47,6 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 ${answers.varCredits}
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
@@ -59,7 +56,6 @@ ${license}
 
 ---
 
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 ## Badges
 
@@ -71,11 +67,6 @@ Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let 
 ## Contributing
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)      [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
 
 ---
 
