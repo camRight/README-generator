@@ -49,7 +49,7 @@ Format:
 ## Credits
 
 format: 
-### [![](https://github.com/sayler3.png?size=50)](https://github.com/username)               TheirName
+### [![](https://github.com/username.png?size=50)](https://github.com/username)               TheirName
 
 ${answers.varCredits}
 
