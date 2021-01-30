@@ -1,11 +1,11 @@
 
-# Readme Generated
+# README Generator
 
 ## Description 
 
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 
 * [Installation](#installation)
@@ -21,12 +21,17 @@
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+Screenshots linked here
+
+Format:
+![Test Image 1](3DTest.png)
 
 
 ## Credits
 
-Victor, Lea, Andre
+format: 
+### [![](https://github.com/sayler3.png?size=50)](https://github.com/username)               Victor Tran
+Andre, Lea, Victor
 
 
 ## License
@@ -42,12 +47,11 @@ Victor, Lea, Andre
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
+[shields.io](https://shields.io/)
 
 ## Contributing
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)      [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)      [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ---
 
@@ -55,4 +59,4 @@ Contact Me:
 
 Github Profile Link: https://github.com/camRight
 
-Email: cam.mac.wright@gmail.com
+Email: 

@@ -40,10 +40,16 @@ ${answers.varInstallSteps}
 
 ## Usage 
 
-Screenshots Here. Provide instructions and examples for use. 
+Screenshots linked here
+
+Format:
+![Test Image 1](3DTest.png)
 
 
 ## Credits
+
+format: 
+### [![](https://github.com/sayler3.png?size=50)](https://github.com/username)               TheirName
 
 ${answers.varCredits}
 
