@@ -24,7 +24,7 @@ function readmePopulation(answers) {
 
 ${answers.varDescription}
 
-## Table of Contents (Optional)
+## Table of Contents
 
 
 * [Installation](#installation)
@@ -40,7 +40,7 @@ ${answers.varInstallSteps}
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+Screenshots Here. Provide instructions and examples for use. 
 
 
 ## Credits
@@ -61,12 +61,11 @@ ${license}
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
+[shields.io](https://shields.io/)
 
 ## Contributing
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)      [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)      [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ---
 

@@ -1,5 +1,5 @@
 
-# Developing A Readme
+# Readme Generated
 
 ## Description 
 
@@ -7,7 +7,6 @@
 
 ## Table of Contents (Optional)
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -29,19 +28,15 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 Victor, Lea, Andre
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
 ---
 
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 ## Badges
 
@@ -54,14 +49,10 @@ Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let 
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)      [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
 
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
-
 ---
 
 Contact Me:
 
 Github Profile Link: https://github.com/camRight
-Email: slo4cameron@gmail.com
+
+Email: cam.mac.wright@gmail.com
