@@ -30,7 +30,9 @@ Format:
 ## Credits
 
 format: 
-### [![](https://github.com/username.png?size=50)](https://github.com/username)               Victor Tran
+
+
+### [![](https://github.com/camRight.png?size=50)](https://github.com/camRight)               Victor Tran
 Andre, Lea, Victor
 
 
