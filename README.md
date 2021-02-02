@@ -40,11 +40,6 @@ Format:
 ### [![](https://github.com/camRight.png?size=50)](https://github.com/camRight)               Cameron
 
 
-
-### [![](https://github.com/Victortran415.png?size=50)](https://github.com/Victortran415)               Victor
-
-
-
 ### [![](https://github.com/leawilhelmer.png?size=50)](https://github.com/leawilhelmer)               Lea
 
 
