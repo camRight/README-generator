@@ -37,11 +37,15 @@ Format:
 
 ## Credits
 
-format: 
+### [![](https://github.com/camRight.png?size=50)](https://github.com/camRight)               Cameron
 
-### [![](https://github.com/camRight.png?size=50)](https://github.com/camRight)               Me.
 
-Andre, Lea, Victory
+
+### [![](https://github.com/Victortran415.png?size=50)](https://github.com/Victortran415)               Victor
+
+
+
+### [![](https://github.com/leawilhelmer.png?size=50)](https://github.com/leawilhelmer)               Lea
 
 
 ## License
