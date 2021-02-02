@@ -1,9 +1,9 @@
 
-# README Generator
+# Readme Generator
 
 ## Description 
 
-
+This project creates a quality readme for any project. A quality readme can take time away from creating code. By streamlining the process: any user can create their own readme more quickly and ensure that it includes quality sections.
 
 ## Table of Contents
 
@@ -16,7 +16,15 @@
 
 ## Installation
 
+1. Navigate to the parent directory (in this case `READMEgenerator/`).
 
+2. Run index.js with `node index.js`
+
+3. Follow the steps required.
+
+4. README.md will now populate with  your readme.
+
+5. Enjoy. Copy and paste to your own md file.
 
 
 ## Usage 
@@ -24,16 +32,16 @@
 Screenshots linked here
 
 Format:
-![Test Image 1](3DTest.png)
+![App in use.](/assets/Bash_use.png)
 
 
 ## Credits
 
 format: 
 
+### [![](https://github.com/camRight.png?size=50)](https://github.com/camRight)               Me.
 
-### [![](https://github.com/camRight.png?size=50)](https://github.com/camRight)               Victor Tran
-Andre, Lea, Victor
+Andre, Lea, Victory
 
 
 ## License
@@ -61,4 +69,4 @@ Contact Me:
 
 Github Profile Link: https://github.com/camRight
 
-Email: 
+Email: example@example.com
