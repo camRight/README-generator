@@ -29,8 +29,6 @@ This project creates a quality readme for any project. A quality readme can take
 
 ## Usage 
 
-Screenshots linked here
-
 Format:
 ![App in use.](/assets/Bash_use.png)
 
