@@ -64,6 +64,4 @@ Format:
 
 Contact Me:
 
-Github Profile Link: https://github.com/camRight
-
-Email: example@example.com
+Github: https://github.com/camRight
